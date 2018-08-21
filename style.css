@@ -111,10 +111,13 @@ a:hover, a:focus {
 	background-color: #383d40 !important;
 	color: #fff;
 }
-
+a.thumbnail:hover,
+a.thumbnail:focus {
+	border-color: <?php echo $this->config->dungeon_theme_color ? color2hex($this->config->dungeon_theme_color) : '#fcb73e'; ?>;
+}
 /* bouton ajoute par enderluffy */
 
-
+/* bouton Partager */
 .btn.btn-enderluffy {
 	background-color: #f0f0f0 !important;
 }
@@ -136,23 +139,25 @@ a:hover, a:focus {
 
 }
 
+
+/* Bouton de Connexion */
 .btn.btn-cennexion {
 	background-color: #ffffff !important;
 	color: #fe7700;
 }
-
+/* Bouton de Inscrire */
 .btn-inscrire {
 	background-color: #ffffff !important;
 	color: #fe7700;
 }
-
+/* Bouton de Question */
 .btn-question {
 	background-color: #ffffff !important;
 	color: #fe7700;
 }
 
 
-
+/* mouvement Réseaux sociaux */
 .hvr-bounce-in {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -174,28 +179,6 @@ a:hover, a:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a.thumbnail:hover,
-a.thumbnail:focus {
-	border-color: <?php echo $this->config->dungeon_theme_color ? color2hex($this->config->dungeon_theme_color) : '#fcb73e'; ?>;
-}
 
 /* Header */
 
